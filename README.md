@@ -2,11 +2,11 @@
 WebScraping ve Client olmak üzere 2 proje bulunmaktadır. Projeler birlikte çalıştırılır birbirlerine bağımlıdır. Amaç, hedef web sayfası kaynağından veri toparalamak ve bu verileri ElasticSearch adlı veritabanı sistemine kaydı gerçekleştir kullanıcılara gösterilecek bir platfom hazırlanır bu platformda veritabanından veriler çekilir ve kullanıcılara sunulur.
 
 # Kullanılan kütüphaneler
-Nest
-HHtmlAgilityPack
-HtmlAgilityPack.CssSelectors.NetCore
-Swashbuckle.AspNetCore
-** Elastic.Clients.Elasticsearch kütüphanesi üzerinde instance alınrken nesne null olarak karşılıyordu bunun yerine eski versiyonlarda kullanılan Nest kütüphanesi üzerinden ilerledim.
+- Nest
+- HHtmlAgilityPack
+- HtmlAgilityPack.CssSelectors.NetCore
+- Swashbuckle.AspNetCore
+* Elastic.Clients.Elasticsearch kütüphanesi üzerinde instance alınrken nesne null olarak karşılıyordu bunun yerine eski versiyonlarda kullanılan Nest kütüphanesi üzerinden ilerledim.
 
 # Adımlar
 + WebScraping Projesi:
